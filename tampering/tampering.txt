@@ -1,0 +1,5 @@
+The tampering security vulnerability refers to a situation
+ where an unauthorized actor manipulates or alters data, 
+ systems, or networks with the intent to compromise integrity, 
+ disrupt operations, or achieve unauthorized access.
+ The CIA property that tampering violates is Integrity. 

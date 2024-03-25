@@ -1,3 +1,10 @@
 Briefly explain the vulnerability and why the secure version prevents the vulnerability.
 Which CIA property does tampering violate?
 What additional security mechanisms can you incorporate?
+
+infodeclosure involves the unintended exposure
+ of sensitive information to an unauthorized party.
+
+It rejects anything that doesnt fit a word or space
+ so they cannot inject code to get a unexpected response 
+ from the database.

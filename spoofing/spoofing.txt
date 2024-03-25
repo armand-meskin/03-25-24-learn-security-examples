@@ -1,1 +1,6 @@
 Briefly explain the vulnerability and why the secure version prevents the vulnerability.
+A spoofing vulnerability is when an attacker can
+ idetnify as another user by falsifying or stealing 
+ data to gain unauthorized access.
+It's secure because httpOnly makes sure the cookie cannot be read
+and same site ensures the cookie is not sent to another server tring to csrf attack.
