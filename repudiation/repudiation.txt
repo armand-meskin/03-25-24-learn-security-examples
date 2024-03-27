@@ -1,2 +1,9 @@
 - Briefly explain the vulnerability and why the secure version is better at preventing repudiation than the insecure version.
 - What additional security mechanisms can you incorporate to prevent such attacks?
+
+When a server does not log happenings properly. It allows for people to falsify their actions.
+
+The secure version provides better logs of who sent what and what date/time the request was sent.
+
+To make it even better there could be a session/cookie verification of the user to ensure an attacker cannot falsify their logs as someone else's etc.
+

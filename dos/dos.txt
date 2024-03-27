@@ -1,2 +1,7 @@
 - Briefly explain the vulnerability and why the secure version prevents the vulnerability.
 - What additional security mechanisms can you incorporate to prevent such attacks?
+
+An attacker deliberately crashes a server by overloading it or passing bad input.
+The secure version uses a try catch loop that stops the server from crashing.
+
+An additional layer of security would be to rate limit requests from specific IP adresses.

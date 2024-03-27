@@ -1,0 +1,4 @@
+Insecure is bad because we can update the user-role of any user regardless of who we are.
+The secure server solves this by using a session to verify who is sending the request, we are protecting that endpoint.
+
+We can make it even more secure by using try catches to prevent the server from crashing.
